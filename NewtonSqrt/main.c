@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 /*
-    Å£¶Ù·¨¿ª·½
-    Date£º2015.3.21
+    ç‰›é¡¿æ³•æ±‚è¿‘ä¼¼æ ¹
+    DateÂ£Âº2015.3.21
 */
 double preGuess = 1;
 double Sqrt_iter(double guess,double x);
