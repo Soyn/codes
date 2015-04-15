@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
-    ¶ş·Ö²éÕÒ
+    äºŒåˆ†æŸ¥æ‰¾
     Date:2015.2.3
 */
 void BinarySearch(int *a,int low, int high,int val);
