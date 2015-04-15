@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1421833454 source:g:\ide\codes\eightqueens\main.c
+	<stdio.h>
+	<stdlib.h>
+
