@@ -1,17 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 int MaxSubseqSum(int *a, int n);
+void MaxSubseqSum1();
 int main()
 {
-    int a[6] ={2,4,5,-1,8,9};
-    printf("MaxSum = %d",MaxSubseqSum2(a,6));
+    MaxSubseqSum1();
     return 0;
 }
-int MaxSubseqSum1(int *a,int n)
+void MaxSubseqSum1()
 {
 
-    int i,j,ThisSum,MaxSum;
+
+    int i,j,n,ThisSum,MaxSum;
     ThisSum = MaxSum = 0;
+    scanf("%d", &n);
+
+    int a[n];
+    for(i = 0; i < n; ++i)
+        scanf("%d",&a[i]);
+
     for(i = 0; i < n; ++i)
     {
         ThisSum += a[i]; //ÏòÓÒÀÛ¼Ó
@@ -20,8 +27,9 @@ int MaxSubseqSum1(int *a,int n)
             if(ThisSum < 0) ThisSum = 0;
         }
     }
-      return MaxSum;
+       printf("%d", MaxSum);
 }
+
 int MaxSubseqSum2(int *a, int n)
 {
     int i,j,ThisSum,MaxSum = 0;
